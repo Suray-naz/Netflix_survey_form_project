@@ -1,0 +1,52 @@
+body{
+    background-image: url(film.jpg)
+
+}
+
+#title{
+    text-align: center;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+#subtitle{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.container{
+    background-color: rgba(19, 4, 231, 0.3);
+    color: white;
+    margin: 30px 100px;
+    
+}
+  
+#survey-form{
+    width: 500px;
+   height: auto;
+   background-color: rgba(0, 0, 0, 0.8);
+   margin: auto;
+   padding-top: 10px;
+   color: white;}
+
+.box{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#name, #email, #age, #contenttype{
+    margin-top: 16px;
+    height: 36px;
+    width: 400px;
+    border: none;
+    padding: 10px;
+ }
+
+ #submit{
+   font-size: larger;
+   margin: 16px 0px 16px 150px;
+   height: 45px;
+   width: 160px;
+   border-radius: 25px;
+   background-color: rgb(238, 30, 30);
+   color: white;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Sorts+Mill+Goudy:ital@1&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="deneme1.css">
+    <title>Netflix deneme</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">NET<span style="color: red;">FLIX</span> </h1>
+
+        
+        <div>
+        <h3 id="subtitle">Thank you for signing up to Netflix. Tell me more about yourself:</h3>
+        </div>
+
+    <form id="survey-form" action="result.html">
+        <div class="box">
+            <label for="name">Name</label> <br>
+            <input type="text" name="name" id="name" placeholder="enter your name"> <br> <br>
+
+            <label for="age">Age</label> <br>
+            <input type="number" name="age" id="age" placeholder="age"> <br> <br>
+
+            <label for="email">Email</label> <br>
+            <input type="email" id="email" placeholder="enter your E-mail adress"> <br><br>
+        </div>
+
+
+        <div class="box">
+            <legend>Content Type:</legend>
+            <select name="contenttype" id="contenttype">
+                <option value="movie">Movies</option>
+                <option value="serie">Series</option>
+            </select>
+        </div> <br>
+
+
+        <div class="box">
+            <legend>Movie Type:</legend>
+            <input type="checkbox" name="comedy" id="comedy">
+            <label for="comedy">Comedy</label> <br>
+
+            <input type="checkbox" name="action" id="action">
+            <label for="action">Action</label> <br>
+        
+            <input type="checkbox" name="romance" id="romance">
+            <label for="romance">Romance</label> <br> <br>
+        </div> 
+
+
+        <div class="box">
+            <legend>Gender:</legend>
+            <input type="radio" name="male" id="male">
+            <label for="male">Male</label> <br>
+
+            <input type="radio" name="female" id="female">
+            <label for="female">Female</label><br>
+
+            <input type="radio" name="other" id="other">
+            <label for="other">Other</label>
+        </div> <br>
+
+        <div class="box">
+            <legend>Feedback:</legend>
+            <textarea name="comments" id="" cols="30" rows="10" placeholder="any comments here..."></textarea>
+        </div>
+
+        <input type="submit" value="SUBMIT" id="submit">
+
+        </div>
+    </form>
+
+
+
+
+
+
+
+
+    </div>
+    
+</body>
+</html>

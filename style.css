@@ -2,6 +2,10 @@ body{
    background-image: url(background_image.jpg)
 }
 
+#title{
+   text-align: center;
+}
+
 #container{
    background-color: rgba(0, 0, 0, 0.3);
    margin: 30px 100px;
@@ -12,6 +16,15 @@ body{
    font-family: 'Bowlby One SC', cursive;
    padding-top: 15px;
    letter-spacing: 5px;
+}
+
+#survey-form{
+   width: 500px;
+   height: auto;
+   background-color: rgba(0, 0, 0, 0.8);
+   margin: auto;
+   padding-top: 10px;
+   color: white;
 }
 
 h3 {
@@ -34,7 +47,7 @@ h3 {
    margin-left: 0%;
 }
 
-#name{
+#name, #age, #email, #contenttype{
    margin-top: 16px;
    height: 36px;
    width: 400px;
@@ -42,29 +55,6 @@ h3 {
    padding: 10px;
 }
 
-#age{
-   margin-top: 16px;
-   height: 36px;
-   width: 400px;
-   border: none;
-   padding: 10px;
-}
-
-#email{
-   margin-top: 16px;
-   height: 36px;
-   width: 400px;
-   border: none;
-   padding: 10px;
-}
-
-#contenttype{
-   margin-top: 16px;
-   height: 36px;
-   width: 400px;
-   border: none;
-   padding: 10px;
-}
 
 *{
    margin: 0px;
@@ -91,15 +81,5 @@ h3 {
    cursor: pointer;
 }
 
-#survey-form{
-   width: 500px;
-   height: auto;
-   background-color: rgba(0, 0, 0, 0.8);
-   margin: auto;
-   padding-top: 10px;
-   color: white;
-}
 
-div {
-   display: block;
-}
+
